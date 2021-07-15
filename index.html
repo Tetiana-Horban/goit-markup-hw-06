@@ -58,7 +58,7 @@
     <!--Особенности-->
     <section class="section nopadding">
       <div class="container features">
-        <h2 hidden>Особенности</h2>
+        <h2 class="visually-hidden">Особенности</h2>
         <ul class="list">
           <li class="item">
             <div class="box">
@@ -338,7 +338,7 @@
     </div>
   </footer>
   <!-- Backdrop Modal -->
-  <div class="backdrop" data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="btn-modal" type="button" data-modal-close>
         <svg width="11" height="11">
@@ -377,17 +377,16 @@
           <textarea class="modal-form-message" name="user-message" placeholder="Введите текст"></textarea>
         </label>
         <label for="accept-policy" class="modal-form-checkbox-field">
-          <input type="checkbox" class="modal-form-checkbox" id="accept-policy">
-          <span class="check"></span>Соглашаюсь с рассылкой и принимаю&nbsp;
+          <input type="checkbox" class="modal-form-checkbox visually-hidden" id="accept-policy">
+          <span class="checkbox-icon"></span>Соглашаюсь с рассылкой и принимаю&nbsp;
           <a href="#" class="modal-form-checkbox-link">Условия договора</a>
         </label>
-
         <button type="submit" class="modal-form-btn">Отправить</button>
       </form>
 
     </div>
   </div>
-  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
