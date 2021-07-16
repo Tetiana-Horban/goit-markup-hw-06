@@ -710,7 +710,7 @@ body {
 
   cursor: pointer;
 
-  transition: background-image var(--transition), border-color var(--transition)
+  transition: background-image var(--transition), border-color var(--transition);
 }
 .modal-form-checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color);
@@ -747,8 +747,9 @@ body {
   cursor: pointer;
   transition: background-color var(--transition);
 }
-.modal-form-btn:hover, .modal-form-btn:focus {
-  background-color: #188CE8;
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #188ce8;
 }
 
 /* Footer form */
