@@ -606,6 +606,10 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+.btn-modal:hover,
+.btn-modal:focus {
+  fill: var(--accent-color);
+}
 .is-hidden {
   visibility: hidden;
   opacity: 0;
